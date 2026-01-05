@@ -21,7 +21,7 @@ test('Проверка доступности элементов модальн�
   await mainPage.openAutorizationModal();
   await mainPage.AutorizationModalHasCorrectAriaShapshot();
 });
-test('Проверка доступности эдементов раскрытого меню', async ({ mainPage }) => {
+test('Проверка доступности элементов раскрытого меню', async ({ mainPage }) => {
   await mainPage.openFullMenu();
   await mainPage.fullMenuHasCorrectAriaShapshot();
 });
