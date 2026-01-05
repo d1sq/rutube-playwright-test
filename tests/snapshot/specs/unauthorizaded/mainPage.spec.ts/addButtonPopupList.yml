@@ -1,0 +1,16 @@
+- list:
+  - listitem:
+    - link "Загрузить видео":
+      - /url: https://studio.rutube.ru/uploader/
+      - img
+      - text: ""
+  - listitem:
+    - link "Загрузить Shorts":
+      - /url: https://studio.rutube.ru/uploader/
+      - img
+      - text: ""
+  - listitem:
+    - link "Создать трансляцию":
+      - /url: https://studio.rutube.ru/create-stream/
+      - img
+      - text: ""

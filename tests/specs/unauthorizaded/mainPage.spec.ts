@@ -9,3 +9,15 @@ test('Проверка доступности эллементов табов к
 test('Проверка доступности бокового меню', async ({ mainPage }) => {
   await mainPage.menuHasCorrectAriaSnapshot();
 });
+test('Проверка доступности списка добавления контента', async ({ mainPage }) => {
+  await mainPage.openAddPopupList();
+  await mainPage.addPopupListHasCorrectAriaSnapshot();
+});
+test('Проверка доступности элементов попапа уведомлений', async ({ mainPage }) => {
+  await mainPage.openNotificationPopup();
+  await mainPage.NotificationPopupHasCorrectAriaShapshot();
+});
+test('Проверка доступности элементов модального окна авторизации', async ({ mainPage }) => {
+  await mainPage.openAutorizationModal();
+  await mainPage.AutorizationModalHasCorrectAriaShapshot();
+});
